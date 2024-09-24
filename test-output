@@ -1,0 +1,11 @@
+https://example.com/trailingslash
+http://example.org/foo/uselessparam/
+http://example.com/en_US/lang
+http://example.com/year/2012
+https://localhost/files/123.json
+https://localhost/files/admin.json
+https://example.org/params?A=x
+https://example.org/params?B=x
+https://example.com/?encoded[1]=hello
+https://example.com/en-US/products/item-1
+https://example.com/de-DE/products/item-deletion
