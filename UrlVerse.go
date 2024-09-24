@@ -30,6 +30,7 @@ var uuidregex = regexp.MustCompile("[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}
 var hashregex = regexp.MustCompile("[a-zA-Z0-9]{32,40,64,128}")
 var equivalenceregexes = buildquivalences()
 
+// change it based on your targets
 var exts = []string{".css", ".png", ".jpg", ".jpeg", ".svg", ".gif", ".mp3", ".mp4", ".rss", ".ttf", ".woff", ".woff2", ".eot", ".pdf", ".m4v", ".ogv", ".webm"}
 var paths = []string{"wp-content", "blog", "blogs", "product", "doc", "docs", "support", "about", "contact", "faq", "terms", "privacy", "help", "assets", "images", "videos", "css", "js", "scripts", "static", "uploads"}
 
