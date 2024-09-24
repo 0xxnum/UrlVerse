@@ -50,7 +50,7 @@ Make sure you have Git installed, then run the following command in your termina
  
     git clone https://github.com/0xxnum/UrlVerse.git
    
-    cd 0xxnum-UrlVerse
+    cd UrlVerse
 
  Run UrlVerse
     You can run UrlVerse by piping your URLs into it:
