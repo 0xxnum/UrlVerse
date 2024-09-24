@@ -55,11 +55,11 @@ Make sure you have Git installed, then run the following command in your termina
  Run UrlVerse
     You can run UrlVerse by piping your URLs into it:
     
-    cat many_urls.txt | go run urlverse.py | tee less_urls.txtx
+    cat many_urls.txt | go run urlverse.go | tee less_urls.txtx
 # Practical Example
 For a practical example, you can filter URLs from Waymore like this:
 
-    waymore example.org | tee all_urls.txt | python urlverse.py > filtered_urls.txt
+    waymore example.org | tee all_urls.txt | python urlverse.go > filtered_urls.txt
 
 
 # Contributing
